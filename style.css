@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap');
+
+
+body{
+    background-color: rgb(244, 235, 224);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    background-color: black;
+    font-family: "Playwrite AU NSW", cursive;
+    
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    color: white;
+    /* padding: 10px; */
+}
+ul li{
+    padding: 10px;
+}
+
+.logo-img img{
+    width: 50px;
+    padding: 0 5px;
+}
+
+.logo-img{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 27px;
+    
+}
+
+.container{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center;  */
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    width: 70%;
+    /* height: 200px; */
+    margin: 25px auto;
+    padding: 15px 15px; 
+    border-radius: 20px;
+    background-image: url('bg.jpg');  
+    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+ 
+.bottom{
+    display: flex;
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+/* sss */
+
+
+.icons .icon{
+    margin-top: 10px;
+    fill: white;
+    width: 75px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+.songInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 10vw;
+    top: 40%;
+}
+.songInfo img{
+
+    border-radius: 5px;
+    width: 100px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+
+
+.songItem{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: large;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 350px;
+    border-radius: 25px;
+
+}
+
+.songItem img{
+    width: 50px;
+    border-radius: 25px;
+    color: white;
+    /* height: 50px; */
+}
+.songListPlay{
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.icon{
+    cursor: pointer;
+}
+
